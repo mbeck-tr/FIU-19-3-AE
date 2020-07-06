@@ -223,5 +223,8 @@ namespace ThemaThreads
         {
             lbCustomers.ItemsSource = liste;
         }
+
+
+        //Neuer Code hinzugefügt
     }
 }
