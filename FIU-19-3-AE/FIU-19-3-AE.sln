@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemaThreads", "..\AsyncProgramming\ThemaThreads\ThemaThreads.csproj", "{C907C421-CD22-43F3-8F0C-0A82CA7344A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIU-19-3-AE", "FIU-19-3-AE.csproj", "{EC740279-256D-4C18-9B92-46F0706A7D7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiThreadingAsync", "MultiThreadingAsync", "{8DC7360E-23FD-4A47-82C6-9D3B20AF9EAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C907C421-CD22-43F3-8F0C-0A82CA7344A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C907C421-CD22-43F3-8F0C-0A82CA7344A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C907C421-CD22-43F3-8F0C-0A82CA7344A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C907C421-CD22-43F3-8F0C-0A82CA7344A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC740279-256D-4C18-9B92-46F0706A7D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC740279-256D-4C18-9B92-46F0706A7D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC740279-256D-4C18-9B92-46F0706A7D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC740279-256D-4C18-9B92-46F0706A7D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C907C421-CD22-43F3-8F0C-0A82CA7344A5} = {8DC7360E-23FD-4A47-82C6-9D3B20AF9EAA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF062393-8A97-440A-913A-B86F53E46CE6}
+	EndGlobalSection
+EndGlobal
