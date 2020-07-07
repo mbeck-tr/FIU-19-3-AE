@@ -24,6 +24,7 @@ namespace ThemaTasks
     /// </summary>
     public partial class MainWindow : Window
     {
+        CancellationTokenSource cts;
         public MainWindow()
         {
             InitializeComponent();
@@ -64,15 +65,60 @@ namespace ThemaTasks
             task6.Start();
             //task6.Wait();
 
-            string result = task6.Result.ToString();
-            WriteOuput(result);
+            string result = task6.Result.ToString(); // Bei Zugriff auf Result-Property wird Wait() Methode aufgerufen
+            WriteOutput(result);
+
+            goto weiter; // nur zur Demonstration, nicht verwenden :-)
+            Task<int> task6b = new Task<int>(MethodeMitException);
+            task6b.Start();
+            try
+            {
+                task6b.Wait();
+            }
+            catch (AggregateException ex)
+            {
+                if (ex.InnerException is DivideByZeroException)
+                {
+                    MessageBox.Show("Division durch Null " + ex.InnerException.Message);
+                }
+                else
+                {
+                    MessageBox.Show("Irgendeine Exception " + ex.InnerException.Message);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Exception catched + " + ex.GetType());
+                Debug.WriteLine("Exception catched + " + ex.Message);
+            }
+
+        weiter: // Sprungmarke, nur Demo!!!
+
+            //Methode mit Übergabeparameter
+            // 1. Möglichkeit
+            Task<int> task7 = new Task<int>(AnzahlZeichen, "Hallo Welt");
+            task7.Start();
+            InvokeWriteOutput("Anzahl Zeichen: " + task7.Result.ToString());
+
+            //2. Möglichkeit über Wrapper
+            Task<int> task8 = Task.Run<int>(() => 
+            { 
+                return AnzahlZeichenString("Hallo FIU 19/3", 12,3.45,DateTime.Now); 
+            });
+            WriteOutput("Anzahl Zeichen: " + task7.Result.ToString());
+
+
+            // Tasks vorzeitig beenden, Task Abbruch
+            cts = new CancellationTokenSource();
+            var task9 = Task.Run(SchreibeX, cts.Token);
+
+            //Continueations
         }
 
-        private void WriteOuput(string msg)
+        private void WriteOutput(string msg)
         {
             tblOutput.Text += msg + Environment.NewLine;
         }
-
         private void KomplexeBerechnung()
         {
             for (int i = 0; i < 10; i++)
@@ -84,16 +130,50 @@ namespace ThemaTasks
                 //WriteOuput($"Berechnung für {i} durchgeführt!!");
             }
         }
-
         private void InvokeWriteOutput(string msg)
         {
-            this.Dispatcher.Invoke(new Action<string>(WriteOuput), new object[] { msg });
+            this.Dispatcher.Invoke(new Action<string>(WriteOutput), new object[] { msg });
         }
-
         private int SinnDesLebens()
         {
-            Thread.Sleep(5000);
+            Thread.Sleep(1000);
             return 42;
+        }
+        private int MethodeMitException()
+        {
+            Thread.Sleep(500);
+            throw new DivideByZeroException("Task Exception");
+            return 42;
+        }
+        private int AnzahlZeichen(object zeichenfolge)
+        {
+            string z = (string)zeichenfolge;
+            Thread.Sleep(600);
+            return z.Length;
+        }
+        private int AnzahlZeichenString(string zeichenfolge, int param2, double param3, DateTime bla)
+        {
+            string z = zeichenfolge;
+            Thread.Sleep(600);
+            return z.Length;
+        }
+        private void SchreibeX()
+        {
+            while (true)
+            {
+                Thread.Sleep(1000);
+                InvokeWriteOutput("X");
+                if (cts.Token.IsCancellationRequested)
+                {
+                    InvokeWriteOutput("Abbruch!!");
+                    return;
+                }
+            }
+        }
+
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            cts.Cancel();
         }
     }
 }

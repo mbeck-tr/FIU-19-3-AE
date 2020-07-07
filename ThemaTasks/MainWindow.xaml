@@ -11,8 +11,14 @@
             <RowDefinition Height="auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button Grid.Row="0" Name="btnStart" Content="Starte Tasks" Width="125"
+        <StackPanel Grid.Row="0">
+            <Button  Name="btnStart" Content="Starte Tasks" Width="125"
                 Margin="5" Click="btnStart_Click"/>
-        <TextBlock Grid.Row="1" Name="tblOutput"/>
+            <Button  Name="btnCancel" Content="Stoppe X" Width="125"
+                Margin="5" Click="btnCancel_Click"/>
+        </StackPanel>
+        <ScrollViewer Grid.Row="1">
+            <TextBlock  Name="tblOutput"/>
+        </ScrollViewer>
     </Grid>
 </Window>
