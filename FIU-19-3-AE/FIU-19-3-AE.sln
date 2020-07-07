@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIU-19-3-AE", "FIU-19-3-AE.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiThreadingAsync", "MultiThreadingAsync", "{8DC7360E-23FD-4A47-82C6-9D3B20AF9EAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemaTasks", "..\ThemaTasks\ThemaTasks.csproj", "{726B036E-DE33-455E-9081-DDFBF0CB9EC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{EC740279-256D-4C18-9B92-46F0706A7D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC740279-256D-4C18-9B92-46F0706A7D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC740279-256D-4C18-9B92-46F0706A7D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726B036E-DE33-455E-9081-DDFBF0CB9EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726B036E-DE33-455E-9081-DDFBF0CB9EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726B036E-DE33-455E-9081-DDFBF0CB9EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726B036E-DE33-455E-9081-DDFBF0CB9EC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C907C421-CD22-43F3-8F0C-0A82CA7344A5} = {8DC7360E-23FD-4A47-82C6-9D3B20AF9EAA}
+		{726B036E-DE33-455E-9081-DDFBF0CB9EC9} = {8DC7360E-23FD-4A47-82C6-9D3B20AF9EAA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF062393-8A97-440A-913A-B86F53E46CE6}

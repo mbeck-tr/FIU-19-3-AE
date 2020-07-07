@@ -1,0 +1,15 @@
+D:\FIU-19-3-AE\ThemaTasks\bin\Debug\ThemaTasks.exe.config
+D:\FIU-19-3-AE\ThemaTasks\bin\Debug\ThemaTasks.exe
+D:\FIU-19-3-AE\ThemaTasks\bin\Debug\ThemaTasks.pdb
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\ThemaTasks.csprojAssemblyReference.cache
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\MainWindow.g.cs
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\App.g.cs
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\ThemaTasks_MarkupCompile.cache
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\ThemaTasks_MarkupCompile.lref
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\MainWindow.baml
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\ThemaTasks.g.resources
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\ThemaTasks.Properties.Resources.resources
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\ThemaTasks.csproj.GenerateResource.cache
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\ThemaTasks.csproj.CoreCompileInputs.cache
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\ThemaTasks.exe
+D:\FIU-19-3-AE\ThemaTasks\obj\Debug\ThemaTasks.pdb
