@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
@@ -68,6 +69,7 @@ namespace ThemaTasks
             string result = task6.Result.ToString(); // Bei Zugriff auf Result-Property wird Wait() Methode aufgerufen
             WriteOutput(result);
 
+            #region Demonstration zur Behandlung von Ausnahmen (Ohne Debugger starten!!!)
             goto weiter; // nur zur Demonstration, nicht verwenden :-)
             Task<int> task6b = new Task<int>(MethodeMitException);
             task6b.Start();
@@ -93,6 +95,7 @@ namespace ThemaTasks
             }
 
         weiter: // Sprungmarke, nur Demo!!!
+            #endregion
 
             //Methode mit Übergabeparameter
             // 1. Möglichkeit
@@ -101,9 +104,9 @@ namespace ThemaTasks
             InvokeWriteOutput("Anzahl Zeichen: " + task7.Result.ToString());
 
             //2. Möglichkeit über Wrapper
-            Task<int> task8 = Task.Run<int>(() => 
-            { 
-                return AnzahlZeichenString("Hallo FIU 19/3", 12,3.45,DateTime.Now); 
+            Task<int> task8 = Task.Run<int>(() =>
+            {
+                return AnzahlZeichenString("Hallo FIU 19/3", 12, 3.45, DateTime.Now);
             });
             WriteOutput("Anzahl Zeichen: " + task7.Result.ToString());
 
@@ -113,6 +116,27 @@ namespace ThemaTasks
             var task9 = Task.Run(SchreibeX, cts.Token);
 
             //Continueations
+            //1. Möglichkeit
+            InvokeWriteOutput("Task 10 gestartet:");
+            var task10 = Task.Run<int>(SinnDesLebens);
+            InvokeWriteOutput("Continue With von Task10 bearbeitet");
+            task10.ContinueWith((vorrigerTask) =>
+           {
+               int ergebnis = vorrigerTask.Result;
+               MessageBox.Show("Task10 Ergebnis " + ergebnis);
+           });
+
+            //2. Möglichkeit
+            var task11 = Task.Run<int>(SinnDesLebens);
+            InvokeWriteOutput("Task awaiter gestartet");
+            TaskAwaiter<int> awaiter = task11.GetAwaiter();
+            awaiter.OnCompleted(() =>
+            {
+                int ergebnis = awaiter.GetResult();
+                MessageBox.Show("Awaiter: " + ergebnis);
+            });
+            InvokeWriteOutput("Awaiter onComplete gesetzt");
+            
         }
 
         private void WriteOutput(string msg)
@@ -136,7 +160,7 @@ namespace ThemaTasks
         }
         private int SinnDesLebens()
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(5000);
             return 42;
         }
         private int MethodeMitException()
