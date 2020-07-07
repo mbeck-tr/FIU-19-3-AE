@@ -1,0 +1,30 @@
+Aufgabe:
+
+WPF-Anwendung
+
++-------------------------------------------------------------+
+|                                                          _OX|
++-------------------------------------------------------------+
+|                                                             |
+|	Kursliste							Trainerliste		  |
+|                                                             |
+|	+----------------+					+-----------------+   |
+|	|FIU 19/3		 |					|Mustermann		  |   |
+|	|FIU 19/4		 |					|Mustermann		  |   |
+|	|FIU193			 |					|Mustermann		  |   |
+|	|FIU193			 |					|Mustermann		  |   |
+|	|FIU193			 |					|Mustermann		  |   |
+|	+----------------+					+-----------------+   |
+|                                                             |
+|                                                             |
+|    +-------------+                     +-------------+      |
+|    | Button laden|                     | Button laden|      |
+|    +-------------+                     +-------------+      |
+|                                                             |
++-------------------------------------------------------------+
+
+List<string> kursliste = new List<string>(){"FIU 19/3","FIU 19/4"};
+List<Kurs> kurstliste;
+List<Trainer> trainerliste
+
+Aus Datei laden, freiwillig
