@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-D:\FIU-19-3-AE\AsyncProgramming\ThemaThreads\obj\Debug\
+D:\FIU-19-3-AE\AsyncProgramming\ThemaThreads\obj\Release\
 ThemaThreads
 none
 false
-DEBUG;TRACE
+TRACE
 D:\FIU-19-3-AE\AsyncProgramming\ThemaThreads\App.xaml
 11151548125
 

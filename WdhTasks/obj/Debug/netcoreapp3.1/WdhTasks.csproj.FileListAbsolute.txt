@@ -1,0 +1,13 @@
+D:\FIU-19-3-AE\WdhTasks\bin\Debug\netcoreapp3.1\WdhTasks.exe
+D:\FIU-19-3-AE\WdhTasks\bin\Debug\netcoreapp3.1\WdhTasks.deps.json
+D:\FIU-19-3-AE\WdhTasks\bin\Debug\netcoreapp3.1\WdhTasks.runtimeconfig.json
+D:\FIU-19-3-AE\WdhTasks\bin\Debug\netcoreapp3.1\WdhTasks.runtimeconfig.dev.json
+D:\FIU-19-3-AE\WdhTasks\bin\Debug\netcoreapp3.1\WdhTasks.dll
+D:\FIU-19-3-AE\WdhTasks\bin\Debug\netcoreapp3.1\WdhTasks.pdb
+D:\FIU-19-3-AE\WdhTasks\obj\Debug\netcoreapp3.1\WdhTasks.csprojAssemblyReference.cache
+D:\FIU-19-3-AE\WdhTasks\obj\Debug\netcoreapp3.1\WdhTasks.csproj.CoreCompileInputs.cache
+D:\FIU-19-3-AE\WdhTasks\obj\Debug\netcoreapp3.1\WdhTasks.AssemblyInfoInputs.cache
+D:\FIU-19-3-AE\WdhTasks\obj\Debug\netcoreapp3.1\WdhTasks.AssemblyInfo.cs
+D:\FIU-19-3-AE\WdhTasks\obj\Debug\netcoreapp3.1\WdhTasks.dll
+D:\FIU-19-3-AE\WdhTasks\obj\Debug\netcoreapp3.1\WdhTasks.pdb
+D:\FIU-19-3-AE\WdhTasks\obj\Debug\netcoreapp3.1\WdhTasks.genruntimeconfig.cache

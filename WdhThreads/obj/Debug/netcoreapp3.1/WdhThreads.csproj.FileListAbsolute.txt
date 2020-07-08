@@ -1,0 +1,13 @@
+D:\FIU-19-3-AE\WdhThreads\bin\Debug\netcoreapp3.1\WdhThreads.exe
+D:\FIU-19-3-AE\WdhThreads\bin\Debug\netcoreapp3.1\WdhThreads.deps.json
+D:\FIU-19-3-AE\WdhThreads\bin\Debug\netcoreapp3.1\WdhThreads.runtimeconfig.json
+D:\FIU-19-3-AE\WdhThreads\bin\Debug\netcoreapp3.1\WdhThreads.runtimeconfig.dev.json
+D:\FIU-19-3-AE\WdhThreads\bin\Debug\netcoreapp3.1\WdhThreads.dll
+D:\FIU-19-3-AE\WdhThreads\bin\Debug\netcoreapp3.1\WdhThreads.pdb
+D:\FIU-19-3-AE\WdhThreads\obj\Debug\netcoreapp3.1\WdhThreads.csprojAssemblyReference.cache
+D:\FIU-19-3-AE\WdhThreads\obj\Debug\netcoreapp3.1\WdhThreads.csproj.CoreCompileInputs.cache
+D:\FIU-19-3-AE\WdhThreads\obj\Debug\netcoreapp3.1\WdhThreads.AssemblyInfoInputs.cache
+D:\FIU-19-3-AE\WdhThreads\obj\Debug\netcoreapp3.1\WdhThreads.AssemblyInfo.cs
+D:\FIU-19-3-AE\WdhThreads\obj\Debug\netcoreapp3.1\WdhThreads.dll
+D:\FIU-19-3-AE\WdhThreads\obj\Debug\netcoreapp3.1\WdhThreads.pdb
+D:\FIU-19-3-AE\WdhThreads\obj\Debug\netcoreapp3.1\WdhThreads.genruntimeconfig.cache

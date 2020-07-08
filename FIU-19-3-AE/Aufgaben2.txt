@@ -1,0 +1,19 @@
+1.)
+Erstellen sie eine Anwendung, welche eine Textdatei einliest. Das Einlesen soll in einem separaten Thread erfolgen.
+
+2.)
+Erstellen sie eine Anwendung, welche die Primzahlen eines angegebenen Bereichs ausgibt. (Berechnung im separaten Task)
+
+Beispiel:
+0 bis 10
+
+1
+2
+3
+5
+7
+
+3.)
+Ändern sie die Methode zum Berechnen der Zahlen aus Aufgabe 2 so ab, dass die Methode ein int-Array zurückgibt.
+
+

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WdhThreads/1.0.0": {
+        "runtime": {
+          "WdhThreads.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WdhThreads/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
