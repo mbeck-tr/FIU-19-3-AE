@@ -7,7 +7,6 @@ Erstellen sie eine Anwendung, welche die Primzahlen eines angegebenen Bereichs a
 Beispiel:
 0 bis 10
 
-1
 2
 3
 5
