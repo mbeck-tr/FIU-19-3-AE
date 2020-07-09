@@ -1,0 +1,13 @@
+D:\FIU-19-3-AE\Aufgaben2\bin\Debug\netcoreapp3.1\Aufgaben2.exe
+D:\FIU-19-3-AE\Aufgaben2\bin\Debug\netcoreapp3.1\Aufgaben2.deps.json
+D:\FIU-19-3-AE\Aufgaben2\bin\Debug\netcoreapp3.1\Aufgaben2.runtimeconfig.json
+D:\FIU-19-3-AE\Aufgaben2\bin\Debug\netcoreapp3.1\Aufgaben2.runtimeconfig.dev.json
+D:\FIU-19-3-AE\Aufgaben2\bin\Debug\netcoreapp3.1\Aufgaben2.dll
+D:\FIU-19-3-AE\Aufgaben2\bin\Debug\netcoreapp3.1\Aufgaben2.pdb
+D:\FIU-19-3-AE\Aufgaben2\obj\Debug\netcoreapp3.1\Aufgaben2.csprojAssemblyReference.cache
+D:\FIU-19-3-AE\Aufgaben2\obj\Debug\netcoreapp3.1\Aufgaben2.csproj.CoreCompileInputs.cache
+D:\FIU-19-3-AE\Aufgaben2\obj\Debug\netcoreapp3.1\Aufgaben2.AssemblyInfoInputs.cache
+D:\FIU-19-3-AE\Aufgaben2\obj\Debug\netcoreapp3.1\Aufgaben2.AssemblyInfo.cs
+D:\FIU-19-3-AE\Aufgaben2\obj\Debug\netcoreapp3.1\Aufgaben2.dll
+D:\FIU-19-3-AE\Aufgaben2\obj\Debug\netcoreapp3.1\Aufgaben2.pdb
+D:\FIU-19-3-AE\Aufgaben2\obj\Debug\netcoreapp3.1\Aufgaben2.genruntimeconfig.cache

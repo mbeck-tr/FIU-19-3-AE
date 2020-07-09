@@ -1,0 +1,13 @@
+D:\FIU-19-3-AE\WdhTaskAbbrechen\bin\Debug\netcoreapp3.1\WdhTaskAbbrechen.exe
+D:\FIU-19-3-AE\WdhTaskAbbrechen\bin\Debug\netcoreapp3.1\WdhTaskAbbrechen.deps.json
+D:\FIU-19-3-AE\WdhTaskAbbrechen\bin\Debug\netcoreapp3.1\WdhTaskAbbrechen.runtimeconfig.json
+D:\FIU-19-3-AE\WdhTaskAbbrechen\bin\Debug\netcoreapp3.1\WdhTaskAbbrechen.runtimeconfig.dev.json
+D:\FIU-19-3-AE\WdhTaskAbbrechen\bin\Debug\netcoreapp3.1\WdhTaskAbbrechen.dll
+D:\FIU-19-3-AE\WdhTaskAbbrechen\bin\Debug\netcoreapp3.1\WdhTaskAbbrechen.pdb
+D:\FIU-19-3-AE\WdhTaskAbbrechen\obj\Debug\netcoreapp3.1\WdhTaskAbbrechen.csprojAssemblyReference.cache
+D:\FIU-19-3-AE\WdhTaskAbbrechen\obj\Debug\netcoreapp3.1\WdhTaskAbbrechen.csproj.CoreCompileInputs.cache
+D:\FIU-19-3-AE\WdhTaskAbbrechen\obj\Debug\netcoreapp3.1\WdhTaskAbbrechen.AssemblyInfoInputs.cache
+D:\FIU-19-3-AE\WdhTaskAbbrechen\obj\Debug\netcoreapp3.1\WdhTaskAbbrechen.AssemblyInfo.cs
+D:\FIU-19-3-AE\WdhTaskAbbrechen\obj\Debug\netcoreapp3.1\WdhTaskAbbrechen.dll
+D:\FIU-19-3-AE\WdhTaskAbbrechen\obj\Debug\netcoreapp3.1\WdhTaskAbbrechen.pdb
+D:\FIU-19-3-AE\WdhTaskAbbrechen\obj\Debug\netcoreapp3.1\WdhTaskAbbrechen.genruntimeconfig.cache

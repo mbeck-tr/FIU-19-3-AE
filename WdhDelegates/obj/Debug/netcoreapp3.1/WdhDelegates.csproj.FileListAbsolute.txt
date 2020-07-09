@@ -1,0 +1,13 @@
+D:\FIU-19-3-AE\WdhDelegates\bin\Debug\netcoreapp3.1\WdhDelegates.exe
+D:\FIU-19-3-AE\WdhDelegates\bin\Debug\netcoreapp3.1\WdhDelegates.deps.json
+D:\FIU-19-3-AE\WdhDelegates\bin\Debug\netcoreapp3.1\WdhDelegates.runtimeconfig.json
+D:\FIU-19-3-AE\WdhDelegates\bin\Debug\netcoreapp3.1\WdhDelegates.runtimeconfig.dev.json
+D:\FIU-19-3-AE\WdhDelegates\bin\Debug\netcoreapp3.1\WdhDelegates.dll
+D:\FIU-19-3-AE\WdhDelegates\bin\Debug\netcoreapp3.1\WdhDelegates.pdb
+D:\FIU-19-3-AE\WdhDelegates\obj\Debug\netcoreapp3.1\WdhDelegates.csprojAssemblyReference.cache
+D:\FIU-19-3-AE\WdhDelegates\obj\Debug\netcoreapp3.1\WdhDelegates.csproj.CoreCompileInputs.cache
+D:\FIU-19-3-AE\WdhDelegates\obj\Debug\netcoreapp3.1\WdhDelegates.AssemblyInfoInputs.cache
+D:\FIU-19-3-AE\WdhDelegates\obj\Debug\netcoreapp3.1\WdhDelegates.AssemblyInfo.cs
+D:\FIU-19-3-AE\WdhDelegates\obj\Debug\netcoreapp3.1\WdhDelegates.dll
+D:\FIU-19-3-AE\WdhDelegates\obj\Debug\netcoreapp3.1\WdhDelegates.pdb
+D:\FIU-19-3-AE\WdhDelegates\obj\Debug\netcoreapp3.1\WdhDelegates.genruntimeconfig.cache

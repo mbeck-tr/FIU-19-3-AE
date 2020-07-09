@@ -1,0 +1,12 @@
+1.)
+Erweitern sie die Aufgabe 2 aus der Aufgaben2.txt Datei, um die Möglichkeit zum Abbrechen der Primzahlenausgabe.
+
+2.)
+Erstellen sie eine Anwendung, welche eine Rechenoperation abfrägt (+,-,*,/) und je nach Wahl die entsprechende Methode
+in einer DelegateVariablen speichert. Nach Abfrage der Operanden soll die gespeicherte Methode ausgeführt werden.
+
+Bsp:
+Operation: + (speichern der AdditionsMethode)
+Operand1: 12
+Operand2: 34
+Aufruf der gespeicherten Methode und Ausgabe des Ergebnisses

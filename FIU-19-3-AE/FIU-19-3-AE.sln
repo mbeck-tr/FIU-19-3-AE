@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Übungen", "Übungen", "{16
 	ProjectSection(SolutionItems) = preProject
 		Aufgabe1.txt = Aufgabe1.txt
 		Aufgaben2.txt = Aufgaben2.txt
+		Aufgaben3.txt = Aufgaben3.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe1", "..\Aufgabe1\Aufgabe1.csproj", "{B99A7071-B3F0-461B-BDDC-7954041E6BAA}"
@@ -26,6 +27,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WdhTasks", "..\WdhTasks\WdhTasks.csproj", "{6453F244-7D8D-4C08-BDFE-E4DA565D3140}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WdhTaskFunction", "..\WdhTaskFunction\WdhTaskFunction.csproj", "{8A8764FB-08F6-402C-AADF-F4A4A1DD7363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgaben2", "..\Aufgaben2\Aufgaben2.csproj", "{7B204E69-EB6C-46B5-AF3E-404011EB6A43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WdhDelegates", "..\WdhDelegates\WdhDelegates.csproj", "{CC97CAE4-6B9E-45F1-878D-90B8924DEB21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WdhTaskAbbrechen", "..\WdhTaskAbbrechen\WdhTaskAbbrechen.csproj", "{FC6B2EE4-9FB9-440D-B782-F7A2CD6237A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +68,18 @@ Global
 		{8A8764FB-08F6-402C-AADF-F4A4A1DD7363}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A8764FB-08F6-402C-AADF-F4A4A1DD7363}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A8764FB-08F6-402C-AADF-F4A4A1DD7363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B204E69-EB6C-46B5-AF3E-404011EB6A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B204E69-EB6C-46B5-AF3E-404011EB6A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B204E69-EB6C-46B5-AF3E-404011EB6A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B204E69-EB6C-46B5-AF3E-404011EB6A43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC97CAE4-6B9E-45F1-878D-90B8924DEB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC97CAE4-6B9E-45F1-878D-90B8924DEB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC97CAE4-6B9E-45F1-878D-90B8924DEB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC97CAE4-6B9E-45F1-878D-90B8924DEB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6B2EE4-9FB9-440D-B782-F7A2CD6237A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6B2EE4-9FB9-440D-B782-F7A2CD6237A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6B2EE4-9FB9-440D-B782-F7A2CD6237A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6B2EE4-9FB9-440D-B782-F7A2CD6237A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +91,9 @@ Global
 		{925613F5-C62D-47D1-A918-E3AD3E9CCDE2} = {AA205151-7FE9-497F-918A-34ED775748D6}
 		{6453F244-7D8D-4C08-BDFE-E4DA565D3140} = {AA205151-7FE9-497F-918A-34ED775748D6}
 		{8A8764FB-08F6-402C-AADF-F4A4A1DD7363} = {AA205151-7FE9-497F-918A-34ED775748D6}
+		{7B204E69-EB6C-46B5-AF3E-404011EB6A43} = {166C0846-4239-4E68-A948-80E27E63F70F}
+		{CC97CAE4-6B9E-45F1-878D-90B8924DEB21} = {AA205151-7FE9-497F-918A-34ED775748D6}
+		{FC6B2EE4-9FB9-440D-B782-F7A2CD6237A3} = {AA205151-7FE9-497F-918A-34ED775748D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF062393-8A97-440A-913A-B86F53E46CE6}
