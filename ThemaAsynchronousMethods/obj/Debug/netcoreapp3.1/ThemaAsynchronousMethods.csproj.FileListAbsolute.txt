@@ -1,0 +1,13 @@
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\bin\Debug\netcoreapp3.1\ThemaAsynchronousMethods.exe
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\bin\Debug\netcoreapp3.1\ThemaAsynchronousMethods.deps.json
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\bin\Debug\netcoreapp3.1\ThemaAsynchronousMethods.runtimeconfig.json
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\bin\Debug\netcoreapp3.1\ThemaAsynchronousMethods.runtimeconfig.dev.json
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\bin\Debug\netcoreapp3.1\ThemaAsynchronousMethods.dll
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\bin\Debug\netcoreapp3.1\ThemaAsynchronousMethods.pdb
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\obj\Debug\netcoreapp3.1\ThemaAsynchronousMethods.csproj.CoreCompileInputs.cache
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\obj\Debug\netcoreapp3.1\ThemaAsynchronousMethods.AssemblyInfoInputs.cache
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\obj\Debug\netcoreapp3.1\ThemaAsynchronousMethods.AssemblyInfo.cs
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\obj\Debug\netcoreapp3.1\ThemaAsynchronousMethods.dll
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\obj\Debug\netcoreapp3.1\ThemaAsynchronousMethods.pdb
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\obj\Debug\netcoreapp3.1\ThemaAsynchronousMethods.genruntimeconfig.cache
+D:\FIU-19-3-AE\ThemaAsynchronousMethods\obj\Debug\netcoreapp3.1\ThemaAsynchronousMethods.csprojAssemblyReference.cache

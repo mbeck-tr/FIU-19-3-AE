@@ -1,0 +1,15 @@
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\bin\Debug\ThemaAsyncAwaitWPF.exe.config
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\bin\Debug\ThemaAsyncAwaitWPF.exe
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\bin\Debug\ThemaAsyncAwaitWPF.pdb
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\ThemaAsyncAwaitWPF.csprojAssemblyReference.cache
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\MainWindow.g.cs
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\App.g.cs
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\ThemaAsyncAwaitWPF_MarkupCompile.cache
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\ThemaAsyncAwaitWPF_MarkupCompile.lref
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\MainWindow.baml
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\ThemaAsyncAwaitWPF.g.resources
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\ThemaAsyncAwaitWPF.Properties.Resources.resources
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\ThemaAsyncAwaitWPF.csproj.GenerateResource.cache
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\ThemaAsyncAwaitWPF.csproj.CoreCompileInputs.cache
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\ThemaAsyncAwaitWPF.exe
+D:\FIU-19-3-AE\ThemaAsyncAwaitWPF\obj\Debug\ThemaAsyncAwaitWPF.pdb

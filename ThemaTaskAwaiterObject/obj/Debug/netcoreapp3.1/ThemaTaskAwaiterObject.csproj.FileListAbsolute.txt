@@ -1,0 +1,12 @@
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\bin\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.exe
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\bin\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.deps.json
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\bin\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.runtimeconfig.json
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\bin\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.runtimeconfig.dev.json
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\bin\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.dll
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\bin\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.pdb
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\obj\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.csproj.CoreCompileInputs.cache
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\obj\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.AssemblyInfoInputs.cache
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\obj\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.AssemblyInfo.cs
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\obj\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.dll
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\obj\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.pdb
+D:\FIU-19-3-AE\ThemaTaskAwaiterObject\obj\Debug\netcoreapp3.1\ThemaTaskAwaiterObject.genruntimeconfig.cache

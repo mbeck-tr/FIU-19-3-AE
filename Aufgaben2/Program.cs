@@ -8,6 +8,7 @@ namespace Aufgaben2
 {
     class Program
     {
+        static CancellationTokenSource ctSource;
         static void Main(string[] args)
         {
             while (true)
@@ -26,9 +27,11 @@ namespace Aufgaben2
                         break;
                     case "2":
                         Console.WriteLine("Aufgabe 2");
+                        ctSource = new CancellationTokenSource();
                         Task t = new Task(
                             //PrimzahlenAusgeben, 1000
-                            ()=> PrimzahlenAusgeben(1000)
+                            ()=> PrimzahlenAusgeben(1000),
+                            ctSource.Token
                             );
                         t.Start();
                         //Alternativer Aufruf
@@ -44,7 +47,11 @@ namespace Aufgaben2
                         return;
                 }
                 Console.WriteLine("Bitte Taste drücken ...");
-                Console.ReadKey();
+                var key = Console.ReadKey();
+                if (key.Key == ConsoleKey.Q)
+                {
+                    ctSource.Cancel();
+                }
             }
 
             Console.WriteLine("Mainmethode fertig!!!");
@@ -55,6 +62,12 @@ namespace Aufgaben2
             int max = (int)bis;
             for (int i = 2; i <= max; i++)
             {
+                Thread.Sleep(100);
+                if (ctSource.IsCancellationRequested)
+                {
+                    Console.WriteLine("Abbruch");
+                    return;
+                }
                 if (IstZahlEinePrimzahl(i)) Console.WriteLine(i);
             }
         }
