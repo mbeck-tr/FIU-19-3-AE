@@ -66,3 +66,34 @@ console.log('Hello \'JavaScript\'');
 
 console.log('Hello "JavaScript"');
 console.log("Hello 'JavaScript'");
+
+
+var str = "JavaScript Strings";
+var result = str.substring(4,10); // Startindex, Endindex
+console.log(result);
+result = str.substring(10,0);
+console.log(result);
+
+result = str.substr(4,10); // Startindex, Anzahl an Zeichen
+console.log(result);
+result = str.substr(11); // Startindex bis Ende
+console.log(result);
+
+result = str.slice(0,10); //Startindex, Endindex
+console.log(result);
+result = str.slice(10,0);
+console.log(result);
+result = str.slice(11); // Startindex bis Ende
+console.log(result);
+
+
+a = 1223; // UserInput
+var text = "";
+if (a % 2 == 0){
+    text = "even";
+}else
+{
+    text = "odd";
+}
+
+text = a % 2 == 0 ? "even" : "odd"; //Ternary Operator
