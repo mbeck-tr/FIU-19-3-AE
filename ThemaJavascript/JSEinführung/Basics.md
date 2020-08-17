@@ -87,3 +87,31 @@ switch(userInput){
     ```JavaScript
     for (var start = 0; start <= 10; start = start + 2){ document.write(start + "<br/>");}
     ```
+
+### Schleife vorzeitig beenden
+
+- `break`
+
+---
+
+## Arrays
+
+- Sammlungen Index 0 basierend
+- Zugriff erfolgt über Index --> []
+
+### Mutator-Methods
+- push(), pop()
+- shift(), unshift()
+- reverse()
+- sort(sortFunction)
+- splice(index,deleteCount,item1, item2, item...)
+
+### Non-Mutator-Methods
+- indexOf()
+- lastIndexOf()
+- filter()
+
+### Mehrdimensionale Arrays
+
+- Syntax wie jacked Arrays in C#
+- ArrayBezeichner[index1][index2]
