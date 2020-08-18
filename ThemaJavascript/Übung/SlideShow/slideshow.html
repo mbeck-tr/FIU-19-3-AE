@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slideshow</title>
 </head>
+
 <body>
-    <img id="image" src="Images/Image1.png" style="width: 150px; height: 150px;"/>
-    <br/>
-    <input type="button" value="zurück"
+    <img id="image" src="../SlideShow/Images/Image1.png" style="width: 150px; height: 150px;" />
+    <!--                 01234567890123456789012345      -->
+    <br />
+    <span id="beschriftung">innerhtml</span>
+    <br />
+    <input type="button" value="zurück" onclick="back()" />
+    <input type="button" value="vor" onclick="forward()" />
+    <br />
+    <input type="text" min="1" max="5" id="imageNumber" />
+    <input type="button" onclick="setImage()" value="anzeigen" />
+    <script src="slideshow.js"></script>
+    <table>
+        <tbody id="history">
+            <tr >
+                <td>
+                    Historie
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>
