@@ -202,3 +202,64 @@ for (var i = 0; i <3; i++){
     }
     document.write("<br/>");
 }
+
+/*
+function Bezeichner(parameter1, parameter2, parameter3,..., parameterN){
+    
+}
+*/
+
+// Function Hoisting
+var ergebnis = AddNumbers(1,2);
+console.log("funktionsaufruf vor Deklaration: " + ergebnis);
+
+// benannte Funktion
+function AddNumbers(firstNumber, secondNumber){
+    var result = firstNumber + secondNumber;
+    return result;
+}
+
+
+var sum = AddNumbers(10,20);
+console.log("Ergebnis: " + sum);
+
+sum = AddNumbers(10); //kein Fehler!!!
+console.log("1 Parameter: " + sum);
+
+sum = AddNumbers(10,20,30,40);
+console.log("4 Parameter: " + sum); //kein Fehler!!!
+
+
+//Function Hoisting funktioniert hier nicht
+//console.log(add(2,3));
+
+//anonyme Funktion
+var add = function (firstNumber, secondNumber){
+    var result = firstNumber + secondNumber;
+    return result;
+}
+
+sum = add(20,30);
+console.log("Ergebnis von add: " + sum);
+
+var factorial = function computeFactorial(number){
+    if (number <=1 ){
+        return 1
+    }
+    return number * computeFactorial(number -1);
+} // !5 = 1*2*3*4*5 = 120
+
+var result = factorial(5);
+console.log("Fakulatät: " + result);
+//computeFactorial(5); //führt zum Fehler
+
+//Immediately-Invoked Function Expression (IIFE)
+var factorial_IIFE = function computeFactorial(number){
+    if (number <=1 ){
+        return 1
+    }
+    return number * computeFactorial(number -1);
+}(5);
+
+console.log("IIFE: " + factorial_IIFE);
+

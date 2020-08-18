@@ -115,3 +115,10 @@ switch(userInput){
 
 - Syntax wie jacked Arrays in C#
 - ArrayBezeichner[index1][index2]
+
+## Funktionen
+
+- benannte Funktionen
+- anonyme Funktionen
+- immediately-Invoked Function Expression (IIFE)
+- Function Hoisting
