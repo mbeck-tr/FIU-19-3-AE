@@ -11,6 +11,10 @@
 
     <table>
         <tr>
+            <td>Gast ID</td>
+            <td><input type="text" id="txtbID" disabled></td>
+        </tr>
+        <tr>
             <td>Name</td>
             <td><input type="text" id="txtbName"></td>
         </tr>
@@ -36,7 +40,9 @@
         </tr>
     </table>
 
-    <input type="button" value="speichern" onclick="AddGuest()">
+    <input type="button" value="hinzufügen" onclick="AddGuest()">
+    <input type="button" value="ändern" onclick="ChangeGuest()">
+    <input type="checkbox" id="cbFilter" onclick="Update()"> Schnittmenge
     <br/>
     Gastname:
     <ol id="liste">
@@ -52,6 +58,7 @@
                 <th onclick="sort('email')">Email</th>
                 <th onclick="sort('date')">Datum Kommen</th>
                 <th onclick="sort('time')">Zeit Kommen</th>
+                <th onclick="sort('time')">Zeit Gehen</th>
             </tr>
         </thead>
         <tbody id="tabelle">
