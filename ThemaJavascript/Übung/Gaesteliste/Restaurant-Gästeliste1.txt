@@ -1,0 +1,36 @@
+HTML-Page:
+
+Restaurant Gästeliste
+
++--------------------+ +---------------+
+|Mary                | |###eintragen###|
++--------------------+ +---------------+
+
+Gäste:
+1 Peter
+2 Paul
+
+Beschreibung:
+1)
+Erstellen Sie eine Webpage, welche eine Gästeliste für ein Restaurant pflegt.
+Es soll möglich sein den Gastnamen anzugeben und per button-click soll der Gast in einer Liste aufgeführt werden.
+
+2)
+Neben dem führen der Liste, soll auch ein Array mit den Gästenamen gefüllt werden.
+
+3)
+Es sollen neben dem Namen auch die Adresse, die Telefonnummer, die Ankunftszeit und die Email-Adresse des Gastes gespeichert werden.
+
+4)
+Die Liste soll sortierbar sein. Per Click auf den Spaltenkopf, soll die Liste nach Inhalt der Spalte sortiert werden.
+
+5) 
+Die Ankunftszeit soll automatisch erfasst werden
+
+6)
+Es sollen Änderungen der Daten möglich gemacht werden.
+Dadurch soll ein Hinzufügen der Gehenszeit möglich sein.
+
+7)
+Die Liste soll nach Zusammenkünften gefilter werden können.
+D. h. es soll ein Gast auswählbar sein und die Liste soll alle weiteren Gäste auflisten, welche zur gleichen Zeit im Restaurant waren.

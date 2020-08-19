@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gästeliste</title>
+    <script src="default.js"></script>
+</head>
+<body>
+    <h2>Gästeliste</h2>
+
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="txtbName"></td>
+        </tr>
+        <tr>
+            <td>Adresse</td>
+            <td><input type="text" id="txtbAdresse"></td>
+        </tr>
+        <tr>
+            <td>Tel.nr.</td>
+            <td><input type="text" id="txtbTel"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" id="txtbEmail"></td>
+        </tr>
+        <tr>
+            <td>Datum</td>
+            <td><input type="date" id="txtbDatum"></td>
+        </tr>
+        <tr>
+            <td>Zeit</td>
+            <td><input type="time" id="txtbZeit"></td>
+        </tr>
+    </table>
+
+    <input type="button" value="speichern" onclick="AddGuest()">
+    <br/>
+    Gastname:
+    <ol id="liste">
+        
+    </ol>
+
+    <table style="width: 100%;">
+        <thead>
+            <tr>
+                <th onclick="sort('name')">Name</th>
+                <th onclick="sort('address')">Adresse</th>
+                <th onclick="sort('tel')">Tel</th>
+                <th onclick="sort('email')">Email</th>
+                <th onclick="sort('date')">Datum Kommen</th>
+                <th onclick="sort('time')">Zeit Kommen</th>
+            </tr>
+        </thead>
+        <tbody id="tabelle">
+
+        </tbody>
+    </table>
+
+</body>
+</html>
