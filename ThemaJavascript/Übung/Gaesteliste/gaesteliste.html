@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gästeliste</title>
     <script src="default.js"></script>
 </head>
+
 <body>
-    <h2>Gästeliste</h2>
+    <h2 id="headline">Gästeliste</h2>
 
     <table>
         <tr>
@@ -40,13 +42,18 @@
         </tr>
     </table>
 
-    <input type="button" value="hinzufügen" onclick="AddGuest()">
-    <input type="button" value="ändern" onclick="ChangeGuest()">
+    <input type="button" value="hinzufügen" onclick="AddGuest()"
+        onmouseover="this.style.background='green';this.style.color='yellow'"
+        onmouseout="this.style.background='white'; this.style.color='black'">
+    <input type="button" id="changeButton" value="ändern"
+        onmouseover="this.style.background='green';this.style.color='yellow'"
+        onmouseout="this.style.background='white'; this.style.color='black'" 
+        onclick="ChangeGuest()">
     <input type="checkbox" id="cbFilter" onclick="Update()"> Schnittmenge
-    <br/>
+    <br />
     Gastname:
     <ol id="liste">
-        
+
     </ol>
 
     <table style="width: 100%;">
@@ -65,6 +72,27 @@
 
         </tbody>
     </table>
+    <script>
+        document.getElementById("changeButton").onmouseover = changeColorOnMouseOver;
+        document.getElementById("changeButton").onmouseout = changeColorOnMouseOut;
 
+        function changeColorOnMouseOver() {
+            this.style.background = "red";
+            this.style.color = "yellow";
+        }
+
+        function changeColorOnMouseOut() {
+            this.style.background = "white";
+            this.style.color = "black";
+            headline.removeEventListener("mouseover", changeColorOnMouseOver);
+        }
+
+        //Eventlistener über JavaScript-Funktionen hinzufügen
+        headline.addEventListener("mouseover", changeColorOnMouseOver);
+        headline.addEventListener("mouseout", changeColorOnMouseOut);
+        
+        
+    </script>
 </body>
+
 </html>
