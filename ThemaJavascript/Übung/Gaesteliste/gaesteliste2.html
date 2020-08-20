@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gästeliste</title>
+    <script src="default2.js"></script>
+</head>
+
+<body>
+    <h2 id="headline">Gästeliste</h2>
+
+    <table>
+        <tr>
+            <td>Gast ID</td>
+            <td><input type="text" id="txtbID" disabled></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="txtbName"></td>
+        </tr>
+        <tr>
+            <td>Adresse</td>
+            <td><input type="text" id="txtbAdresse"></td>
+        </tr>
+        <tr>
+            <td>Tel.nr.</td>
+            <td><input type="text" id="txtbTel"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" id="txtbEmail"></td>
+        </tr>
+        <tr>
+            <td>Datum</td>
+            <td><input type="date" id="txtbDatum"></td>
+        </tr>
+        <tr>
+            <td>Zeit</td>
+            <td><input type="time" id="txtbZeit"></td>
+        </tr>
+    </table>
+
+    <input type="button" value="hinzufügen" onclick="AddGuest()"
+        onmouseover="this.style.background='green';this.style.color='yellow'"
+        onmouseout="this.style.background='white'; this.style.color='black'">
+    <input type="button" id="changeButton" value="ändern"
+        onmouseover="this.style.background='green';this.style.color='yellow'"
+        onmouseout="this.style.background='white'; this.style.color='black'" 
+        onclick="ChangeGuest()">
+    <input type="checkbox" id="cbFilter" onclick="Update()"> Schnittmenge
+    <br />
+    Gastname:
+    <ol id="liste">
+
+    </ol>
+
+    <table style="width: 100%;">
+        <thead>
+            <tr>
+                <th onclick="sort('name')">Name</th>
+                <th onclick="sort('address')">Adresse</th>
+                <th onclick="sort('tel')">Tel</th>
+                <th onclick="sort('email')">Email</th>
+                <th onclick="sort('date')">Datum Kommen</th>
+                <th onclick="sort('time')">Zeit Kommen</th>
+                <th onclick="sort('time')">Zeit Gehen</th>
+            </tr>
+        </thead>
+        <tbody id="tabelle">
+
+        </tbody>
+    </table>
+    <script>
+        document.getElementById("changeButton").onmouseover = changeColorOnMouseOver;
+        document.getElementById("changeButton").onmouseout = changeColorOnMouseOut;
+
+        function changeColorOnMouseOver() {
+            this.style.background = "red";
+            this.style.color = "yellow";
+        }
+
+        function changeColorOnMouseOut() {
+            this.style.background = "white";
+            this.style.color = "black";
+            headline.removeEventListener("mouseover", changeColorOnMouseOver);
+        }
+
+        //Eventlistener über JavaScript-Funktionen hinzufügen
+        headline.addEventListener("mouseover", changeColorOnMouseOver);
+        headline.addEventListener("mouseout", changeColorOnMouseOut);
+        
+        
+    </script>
+</body>
+
+</html>
